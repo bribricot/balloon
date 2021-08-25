@@ -2,12 +2,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<!-- <script src="balloon.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="balloonjquery.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="balloonjquery.js"></script>
 	<title>Balloon</title>
+	<style>
+.redballoon {
+	background-color: #f00020;
+}
+.blueballoon {
+	background-color: #0e4bef;
+}
+.greenballoon {
+	background-color: #49b675;
+}</style>
 </head>
 <body>
-	<div style="background-color: red; height: 200px; width: 200px; border-radius: 200px;" id="cercle"></div>
+	<div style= "height: 200px; width: 200px; border-radius: 200px;" class="redballoon" id="cercle"></div>
 </body>
 </html>

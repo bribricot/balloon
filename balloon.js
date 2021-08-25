@@ -9,7 +9,7 @@ function ChangeWithClick() {
 		element.style.backgroundColor = "blue";
 	else if (element.style.backgroundColor == "blue")
 		element.style.backgroundColor = "green";
-	else if (element.style.backgroundColor = "green")
+	else
 		element.style.backgroundColor = "red";
 // Le ballon grandit de 10 pixels jusqu'à atteindre 420 pixels puis le ballon explose et revient à sa taille initiale
 	if (Size() < 420) {
@@ -33,7 +33,7 @@ function mouseLeave() {
 		element.style.backgroundColor = "blue";
 	else if (element.style.backgroundColor == "blue")
 		element.style.backgroundColor = "red";
-	else if (element.style.backgroundColor = "red")
+	else
 		element.style.backgroundColor = "green";
 // Le ballon diminue de 5px puis stagne à 200px puis reste immobilisé à 200px
 	if (Size() > 200) {
